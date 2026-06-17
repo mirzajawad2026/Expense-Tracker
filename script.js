@@ -22,7 +22,7 @@ btn.addEventListener("click", function(){
     console.log(expenses);
     shows();
     title_input.value = "";
-    amount.value = "";
+    amount_input.value = "";
 })
 function shows() {
     expenseList.textContent = "";
